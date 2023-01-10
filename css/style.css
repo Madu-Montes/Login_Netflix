@@ -77,7 +77,14 @@ form .login_input {
 
 .help {
     display: flex;
+}
 
+.help input{
+    width: 15px;
+}
+
+.help input:checked{
+    background-color: #333333;
 }
 
 .help h2 {
@@ -114,7 +121,6 @@ form .login_input {
 strong {
     color: white;
     text-decoration: none;
-    /*TIRAR O SUBLINHADO*/
     cursor: pointer;
 }
 
@@ -132,7 +138,7 @@ strong {
 }
 
 .footer {
-    height: 242px;
+    height: 262px;
     background-color: rgba(0, 0, 0, 0.808);
     color: #737373;
 }
@@ -143,6 +149,15 @@ strong {
     grid-template-columns: 25% 25% 25% 25%;
     gap: 5px;
     margin: 20px 120px 40px 120px;
+}
+
+.footer a{
+    color: #737373;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
 }
 
 .footer p {
@@ -158,6 +173,7 @@ strong {
 }
 
 .menu-drop svg{
+    color: #999999;
     float: left;
     margin-left: 5px;
 }
@@ -165,13 +181,13 @@ strong {
 button[name="drop"] {
     width: 140px;
     height: 48px;
-    border: 1px solid white;
+    border: 2px solid #999999;
     border-radius: 3px;
     cursor: pointer;
-    background-color: #0f0f0f;
+    background-color: rgba(0, 0, 0, 0.938);
     padding: 10px;
     font-size: 15px;
-    color: white;
+    color: #999999;
     margin-top: 25px;
 }
 
@@ -182,7 +198,7 @@ button[name="drop"] {
 }
 
 .drop-links a {
-    color: white;
+    color: #999999;
     font-size: 12px;
     padding: 8px 10px;
     text-decoration: none;
@@ -199,7 +215,9 @@ button[name="drop"] {
 }
 
 .drop-links a:hover {
-    background-color: #0071eb
+    background-color: #0071eb;
+    color: white;
+    text-decoration: none;
 }
 
 .drop-links {
