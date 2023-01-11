@@ -46,38 +46,76 @@
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         gap: 0px;
-        margin: 10px 0px 40px 0px;
+        margin: 10px 140px 40px 140px;
     }
 
     .footer p {
-        margin: 10px 0px 40px 0px;
+        margin: 10px 140px 40px 140px;
         padding-top: 25px;
     }
 
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer .container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 0px;
+        margin: 10px 300px 40px 300px;
+    }
 
-@media (min-width: 768px) and (max-width: 991px) {}
+    .footer p {
+        margin: 10px 300px 40px 300px;
+        padding-top: 25px;
+    }
+}
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .geral {
         background-color: black;
         height: 190vh;
-        width: 110vw;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .logo {
+        width: 166px;
+        margin: 25px 15px;
     }
 
     .login-body {
-        background-color: #703abb;
-        width: 130%;
+        width: 500px;
         height: 590px;
         padding: 15px 0px 30px 0px;
     }
 
+    .footer .container {
+        display: none;
+    }
 
+    .footer .container2 {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 50% 50%;
+        gap: 5px;
+        margin: 0px 30px;
+    }
+
+    .footer p {
+        margin: 0px 30px;
+        margin-bottom: 18px;
+        margin-top: 10px;
+    }
+
+    button[name="drop"] {
+        margin-top: 50px;
+    }
+
+    
 }
 
-@media (min-width: 414px) and (max-width: 575px) {
+@media (min-width: 576px) and (max-width: 767px) {
     .geral {
         background-color: black;
         height: 190vh;
@@ -86,13 +124,13 @@
     }
 
     .login-body {
-        width: 80%;
+        width: 460px;
         height: 590px;
         padding: 15px 0px 30px 0px;
     }
 
     .logo {
-        width: 78px;
+        width: 166px;
         margin: 25px 15px;
     }
 
@@ -134,6 +172,74 @@
 
     .footer p {
         margin: 0px 18px;
+        margin-bottom: 18px;
+        margin-top: 10px;
+    }
+
+    button[name="drop"] {
+        margin-top: 50px;
+    }
+
+
+}
+
+@media (min-width: 414px) and (max-width: 575px) {
+    .geral {
+        background-color: black;
+        height: 190vh;
+        width: 110vw;
+        overflow-x: hidden;
+    }
+
+    .login-body {
+        width: 440px;
+        height: 590px;
+        padding: 15px 0px 30px 0px;
+    }
+
+    .logo {
+        width: 166px;
+        margin: 25px 15px;
+    }
+
+    form .login_input {
+        width: 100%;
+    }
+
+    .submit {
+        width: 100%;
+    }
+
+    .support-assine {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .line {
+        display: block;
+        width: 100%;
+        border: 0.5px solid #737373;
+    }
+
+    .footer {
+        margin-top: -90px;
+        height: 80px;
+    }
+
+    .footer .container {
+        display: none;
+    }
+
+    .footer .container2 {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 50% 50%;
+        gap: 5px;
+        margin: 15px 18px;
+    }
+
+    .footer p {
+        margin: 15px 18px;
         margin-bottom: 18px;
         margin-top: 10px;
     }
