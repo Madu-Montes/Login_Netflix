@@ -10,13 +10,13 @@
         gap: 0px;
         margin: 10px 300px 40px 300px;
     }
-    
+
     .footer p {
         margin: 10px 300px 40px 300px;
         padding-top: 25px;
     }
 
-   
+
 }
 
 @media (min-width: 1400px) and (max-width: 1535px) {
@@ -31,12 +31,12 @@
         gap: 0px;
         margin: 10px 280px 40px 280px;
     }
-    
+
     .footer p {
         margin: 10px 280px 40px 280px;
         padding-top: 25px;
     }
-    
+
 }
 
 
@@ -48,7 +48,7 @@
         gap: 0px;
         margin: 10px 0px 40px 0px;
     }
-    
+
     .footer p {
         margin: 10px 0px 40px 0px;
         padding-top: 25px;
@@ -56,18 +56,12 @@
 
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-   
-    
-}
+@media (min-width: 992px) and (max-width: 1199px) {}
 
-@media (min-width: 768px) and (max-width: 991px) {
-    
-
-}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .geral{
+    .geral {
         background-color: black;
         height: 190vh;
         width: 110vw;
@@ -80,14 +74,14 @@
         padding: 15px 0px 30px 0px;
     }
 
-    
+
 }
 
 @media (min-width: 414px) and (max-width: 575px) {
-    nav{
+    nav {
         margin-left: 0%;
     }
-    
+
     .container-grid {
         width: 90%;
         padding: 20px;
@@ -97,22 +91,23 @@
         margin-bottom: 5%;
     }
 
-    .title-home{
+    .title-home {
         margin-top: 10%;
     }
 
-    .title-home h1{
+    .title-home h1 {
         font-size: 55px;
     }
 
-    .titles h2, h3{
+    .titles h2,
+    h3 {
         font-size: 40px;
     }
 
-    .ilustra-eu{
+    .ilustra-eu {
         margin-bottom: 15%;
     }
-    
+
     .ilustra-eu img {
         padding: 10px;
         margin-top: 50px;
@@ -123,18 +118,18 @@
         margin-right: 5%;
     }
 
-    .right-home{
+    .right-home {
         width: 300px;
     }
 
-    .animacao-home{
+    .animacao-home {
         margin-left: 20px;
         margin-top: 50px;
         width: 270px;
         height: 270px;
     }
-    
-    .animacao-home::after{
+
+    .animacao-home::after {
         width: 270px;
         height: 270px;
     }
@@ -147,19 +142,19 @@
         gap: 30px;
     }
 
-    .right p{
+    .right p {
         font-size: 20px;
     }
 
-    .left2 p{
+    .left2 p {
         font-size: 20px;
     }
 
-    .left2{
+    .left2 {
         margin-left: 0%;
     }
 
-    .right .btn{
+    .right .btn {
         margin-top: 5%;
         width: 40%;
         float: none;
@@ -168,12 +163,12 @@
         display: block;
     }
 
-    .eu img{
+    .eu img {
         width: 70%;
         margin-bottom: 10%;
     }
 
-    #habilidades{
+    #habilidades {
         text-align: center;
         margin-top: 5%;
         width: 100%;
@@ -189,7 +184,7 @@
         gap: 10px;
     }
 
-    .container-grid .habilidades img{
+    .container-grid .habilidades img {
         margin-top: 5%;
         width: 90px;
     }
@@ -199,35 +194,35 @@
         display: block;
     }
 
-    .projects .card{
+    .projects .card {
         margin-bottom: 20px;
         margin-left: 5%;
         width: 90%;
     }
 
-    .projects img{
+    .projects img {
         background-color: #703abb;
         width: 100%;
         height: 200px;
     }
 
-    .container .btn-git{
+    .container .btn-git {
         width: 50%;
         font-size: 20px;
         margin-left: 25%;
         margin-bottom: 10%;
     }
 
-    .footer{
+    .footer {
         width: 100%;
-    }    
+    }
 }
 
 @media (min-width: 390px) and (max-width: 413px) {
-    nav{
+    nav {
         margin-left: 0%;
     }
-    
+
     .container-grid {
         width: 90%;
         padding: 20px;
@@ -237,14 +232,14 @@
         margin-bottom: 5%;
     }
 
-    .title-home{
+    .title-home {
         margin-top: 5%;
     }
 
-    .ilustra-eu{
+    .ilustra-eu {
         margin-bottom: 15%;
     }
-    
+
     .ilustra-eu img {
         padding: 10px;
         margin-left: 15%;
@@ -254,18 +249,18 @@
         border-radius: 50%;
     }
 
-    .right-home{
+    .right-home {
         width: 300px;
     }
 
-    .animacao-home{
+    .animacao-home {
         margin-top: 50px;
         width: 230px;
         height: 230px;
         margin-left: 35px;
     }
-    
-    .animacao-home::after{
+
+    .animacao-home::after {
         width: 230px;
         height: 230px;
     }
@@ -278,19 +273,19 @@
         gap: 30px;
     }
 
-    .right p{
+    .right p {
         font-size: 20px;
     }
 
-    .left2 p{
+    .left2 p {
         font-size: 20px;
     }
 
-    .left2{
+    .left2 {
         margin-left: 0%;
     }
 
-    .right .btn{
+    .right .btn {
         margin-top: 0%;
         width: 50%;
         float: none;
@@ -299,7 +294,7 @@
         display: block;
     }
 
-    #habilidades{
+    #habilidades {
         text-align: center;
         margin-top: 5%;
         width: 100%;
@@ -315,7 +310,7 @@
         gap: 20px;
     }
 
-    .container-grid .habilidades img{
+    .container-grid .habilidades img {
         margin-top: 5%;
         width: 90px;
         margin-left: -45%;
@@ -326,30 +321,31 @@
         display: block;
     }
 
-    .projects .card{
+    .projects .card {
         margin-bottom: 20px;
         margin-left: 5%;
         width: 90%;
     }
 
-    .container .btn-git{
+    .container .btn-git {
         width: 50%;
         font-size: 20px;
         margin-left: 25%;
         margin-bottom: 10%;
     }
 
-    .footer{
+    .footer {
         width: 100%;
-    }    
-    
+    }
+
 }
 
 @media (min-width: 360px) and (max-width: 389px) {
-    .geral{
+    .geral {
         background-color: black;
         height: 190vh;
         width: 110vw;
+        overflow-x: hidden;
     }
 
     .login-body {
@@ -364,16 +360,51 @@
     }
 
     form .login_input {
-        width: 100%;
-        padding-left: 15px;
-        border-radius: 5px;
-        border: #333333;
-        box-sizing: border-box;
-        margin: 10px 0;
-        height: 50px;
-        font-size: 16px;
-        color: aliceblue;
-        background-color: #333333;
+        width: 90%;
     }
-    
+
+    .submit {
+        width: 90%;
+    }
+
+    .support-assine {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .line {
+        display: block;
+        width: 100%;
+        border: 0.5px solid #737373;
+    }
+
+    .footer {
+        margin-top: -90px;
+        height: 80px;
+    }
+
+    .footer .container {
+        display: none;
+    }
+
+    .footer .container2 {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 50% 50%;
+        gap: 5px;
+        margin: 0px 18px;
+    }
+
+    .footer p {
+        margin: 0px 18px;
+        margin-bottom: 18px;
+        margin-top: 10px;
+    }
+
+    button[name="drop"] {
+        margin-top: 50px;
+    }
+
+
+
 }

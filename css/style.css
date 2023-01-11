@@ -170,6 +170,14 @@ strong {
     margin: 20px 120px 40px 120px;
 }
 
+.footer .container2{
+    display: none;
+}
+
+.line{
+    display: none;
+}
+
 .footer a {
     color: #737373;
     text-decoration: none;
