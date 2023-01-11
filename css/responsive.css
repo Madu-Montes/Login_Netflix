@@ -1,0 +1,379 @@
+@media (min-width: 1536px) and (max-width: 1920px) {
+    .login-body {
+        height: 670px;
+    }
+
+    .footer .container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 0px;
+        margin: 10px 300px 40px 300px;
+    }
+    
+    .footer p {
+        margin: 10px 300px 40px 300px;
+        padding-top: 25px;
+    }
+
+   
+}
+
+@media (min-width: 1400px) and (max-width: 1535px) {
+    .login-body {
+        height: 670px;
+    }
+
+    .footer .container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 0px;
+        margin: 10px 280px 40px 280px;
+    }
+    
+    .footer p {
+        margin: 10px 280px 40px 280px;
+        padding-top: 25px;
+    }
+    
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .footer .container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 0px;
+        margin: 10px 0px 40px 0px;
+    }
+    
+    .footer p {
+        margin: 10px 0px 40px 0px;
+        padding-top: 25px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .geral{
+        background-color: black;
+        height: 190vh;
+        width: 110vw;
+    }
+
+    .login-body {
+        background-color: #703abb;
+        width: 130%;
+        height: 590px;
+        padding: 15px 0px 30px 0px;
+    }
+
+    
+}
+
+@media (min-width: 414px) and (max-width: 575px) {
+    nav{
+        margin-left: 0%;
+    }
+    
+    .container-grid {
+        width: 90%;
+        padding: 20px;
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    .title-home{
+        margin-top: 10%;
+    }
+
+    .title-home h1{
+        font-size: 55px;
+    }
+
+    .titles h2, h3{
+        font-size: 40px;
+    }
+
+    .ilustra-eu{
+        margin-bottom: 15%;
+    }
+    
+    .ilustra-eu img {
+        padding: 10px;
+        margin-top: 50px;
+        width: 90%;
+        height: 90%;
+        border-radius: 50%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .right-home{
+        width: 300px;
+    }
+
+    .animacao-home{
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 270px;
+        height: 270px;
+    }
+    
+    .animacao-home::after{
+        width: 270px;
+        height: 270px;
+    }
+
+    .container-redes {
+        margin-left: 35%;
+        width: 20%;
+        margin-top: 27%;
+        display: grid;
+        gap: 30px;
+    }
+
+    .right p{
+        font-size: 20px;
+    }
+
+    .left2 p{
+        font-size: 20px;
+    }
+
+    .left2{
+        margin-left: 0%;
+    }
+
+    .right .btn{
+        margin-top: 5%;
+        width: 40%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .eu img{
+        width: 70%;
+        margin-bottom: 10%;
+    }
+
+    #habilidades{
+        text-align: center;
+        margin-top: 5%;
+        width: 100%;
+        margin-left: -5%;
+    }
+
+    .container-grid .habilidades {
+        width: 100%;
+        margin-left: 0%;
+        height: 350px;
+        padding: 20px;
+        display: grid;
+        gap: 10px;
+    }
+
+    .container-grid .habilidades img{
+        margin-top: 5%;
+        width: 90px;
+    }
+
+    .container .projects {
+        margin-left: 0%;
+        display: block;
+    }
+
+    .projects .card{
+        margin-bottom: 20px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .projects img{
+        background-color: #703abb;
+        width: 100%;
+        height: 200px;
+    }
+
+    .container .btn-git{
+        width: 50%;
+        font-size: 20px;
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
+
+    .footer{
+        width: 100%;
+    }    
+}
+
+@media (min-width: 390px) and (max-width: 413px) {
+    nav{
+        margin-left: 0%;
+    }
+    
+    .container-grid {
+        width: 90%;
+        padding: 20px;
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    .title-home{
+        margin-top: 5%;
+    }
+
+    .ilustra-eu{
+        margin-bottom: 15%;
+    }
+    
+    .ilustra-eu img {
+        padding: 10px;
+        margin-left: 15%;
+        margin-top: 50px;
+        width: 70%;
+        height: 70%;
+        border-radius: 50%;
+    }
+
+    .right-home{
+        width: 300px;
+    }
+
+    .animacao-home{
+        margin-top: 50px;
+        width: 230px;
+        height: 230px;
+        margin-left: 35px;
+    }
+    
+    .animacao-home::after{
+        width: 230px;
+        height: 230px;
+    }
+
+    .container-redes {
+        margin-left: 30%;
+        width: 20%;
+        margin-top: 27%;
+        display: grid;
+        gap: 30px;
+    }
+
+    .right p{
+        font-size: 20px;
+    }
+
+    .left2 p{
+        font-size: 20px;
+    }
+
+    .left2{
+        margin-left: 0%;
+    }
+
+    .right .btn{
+        margin-top: 0%;
+        width: 50%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #habilidades{
+        text-align: center;
+        margin-top: 5%;
+        width: 100%;
+        margin-left: -5%;
+    }
+
+    .container-grid .habilidades {
+        width: 100%;
+        margin-left: -10%;
+        height: 350px;
+        padding: 20px;
+        display: grid;
+        gap: 20px;
+    }
+
+    .container-grid .habilidades img{
+        margin-top: 5%;
+        width: 90px;
+        margin-left: -45%;
+    }
+
+    .container .projects {
+        margin-left: 0%;
+        display: block;
+    }
+
+    .projects .card{
+        margin-bottom: 20px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .container .btn-git{
+        width: 50%;
+        font-size: 20px;
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
+
+    .footer{
+        width: 100%;
+    }    
+    
+}
+
+@media (min-width: 360px) and (max-width: 389px) {
+    .geral{
+        background-color: black;
+        height: 190vh;
+        width: 110vw;
+    }
+
+    .login-body {
+        width: 90%;
+        height: 590px;
+        padding: 15px 0px 30px 0px;
+    }
+
+    .logo {
+        width: 78px;
+        margin: 25px 15px;
+    }
+
+    form .login_input {
+        width: 100%;
+        padding-left: 15px;
+        border-radius: 5px;
+        border: #333333;
+        box-sizing: border-box;
+        margin: 10px 0;
+        height: 50px;
+        font-size: 16px;
+        color: aliceblue;
+        background-color: #333333;
+    }
+    
+}
