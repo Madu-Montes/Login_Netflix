@@ -1,24 +1,11 @@
 @media (min-width: 1536px) and (max-width: 1920px) {
-    .login-body {
-        height: 670px;
-    }
-
-    .footer .container {
-        width: 80%;
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        gap: 0px;
-        margin: 10px 300px 40px 300px;
-    }
-
-    .footer p {
-        margin: 10px 300px 40px 300px;
-        padding-top: 25px;
+    .geral{
+        height: 100vh;
     }
 
 
 }
-
+/**/
 @media (min-width: 1400px) and (max-width: 1535px) {
     .login-body {
         height: 670px;
@@ -32,10 +19,6 @@
         margin: 10px 280px 40px 280px;
     }
 
-    .footer p {
-        margin: 10px 280px 40px 280px;
-        padding-top: 25px;
-    }
 
 }
 
@@ -112,7 +95,7 @@
         margin-top: 50px;
     }
 
-    
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -313,13 +296,23 @@
     button[name="drop"] {
         margin-top: 50px;
     }
-    
+
 
 }
 
 @media (min-width: 360px) and (max-width: 389px) {
-    body{
+    body {
         overflow-x: hidden;
+    }
+
+    .main {
+        background-color: red;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .geral {
@@ -332,9 +325,10 @@
     .login-body {
         background-color: aquamarine;
         min-width: 350px;
-        height: 590px;
+        height: 450px;
+        /*
         padding: 5px 0px 0px 25px;
-        margin: 0px 15px 0px 45%;
+        margin: 0px 15px 0px 45%;*/
     }
 
     .logo {
@@ -343,14 +337,15 @@
     }
 
     form .login_input {
-        width: 90%;
+        width: 100%;
     }
+
 
     .submit {
         width: 90%;
     }
 
-    .help{
+    .help {
         background-color: blueviolet;
         width: 95%;
         font-size: 13px;
@@ -363,8 +358,9 @@
 
     .line {
         display: block;
-        width: 70%;
+        width: 90%;
         border: 0.5px solid #737373;
+        margin-top: 35%;
     }
 
     .footer {
@@ -391,7 +387,7 @@
         font-size: 13px;
     }
 
-    .col h4{
+    .col h4 {
         font-size: 11px;
     }
 
