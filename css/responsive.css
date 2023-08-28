@@ -70,7 +70,7 @@
     .login-body {
         width: 500px;
         height: 590px;
-        padding: 15px 0px 30px 0px;
+        padding: 15px 45px 30px 0px;
     }
 
     .footer .container {
@@ -109,7 +109,7 @@
     .login-body {
         width: 460px;
         height: 590px;
-        padding: 15px 0px 30px 0px;
+        padding: 15px 40px 30px 0px;
     }
 
     .logo {
@@ -177,7 +177,7 @@
     .login-body {
         width: 440px;
         height: 590px;
-        padding: 15px 0px 30px 0px;
+        padding: 15px 50px 30px 5px;
     }
 
     .logo {
@@ -243,7 +243,7 @@
     .login-body {
         width: 80%;
         height: 590px;
-        padding: 15px 0px 30px 0px;
+        padding: 15px 35px 30px 0px;
     }
 
     .logo {
@@ -301,20 +301,6 @@
 }
 
 @media (min-width: 360px) and (max-width: 389px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .main {
-        background-color: red;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
     .geral {
         background-color: black;
         height: 190vh;
@@ -323,12 +309,9 @@
     }
 
     .login-body {
-        background-color: aquamarine;
-        min-width: 350px;
-        height: 450px;
-        /*
-        padding: 5px 0px 0px 25px;
-        margin: 0px 15px 0px 45%;*/
+        width: 90%;
+        height: 590px;
+        padding: 15px 35px 30px 0px;
     }
 
     .logo {
@@ -340,15 +323,8 @@
         width: 100%;
     }
 
-
     .submit {
-        width: 90%;
-    }
-
-    .help {
-        background-color: blueviolet;
-        width: 95%;
-        font-size: 13px;
+        width: 100%;
     }
 
     .support-assine {
@@ -358,9 +334,8 @@
 
     .line {
         display: block;
-        width: 90%;
+        width: 100%;
         border: 0.5px solid #737373;
-        margin-top: 35%;
     }
 
     .footer {
@@ -374,9 +349,9 @@
 
     .footer .container2 {
         display: grid;
-        width: 65%;
-        gap: 5px;
+        width: 80%;
         grid-template-columns: 50% 50%;
+        gap: 5px;
         margin: 0px 18px;
     }
 
@@ -384,11 +359,6 @@
         margin: 0px 18px;
         margin-bottom: 18px;
         margin-top: 10px;
-        font-size: 13px;
-    }
-
-    .col h4 {
-        font-size: 11px;
     }
 
     button[name="drop"] {
